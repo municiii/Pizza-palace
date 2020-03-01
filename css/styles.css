@@ -57,4 +57,10 @@ img {
   clear: both;
   display: table;
 }
+.columns {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
   
