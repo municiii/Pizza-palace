@@ -18,7 +18,7 @@ img {
 }
 
   
-  .
+  
 .column {
   float: left;
   width: 25%;
@@ -87,7 +87,7 @@ body {
 }
 
 #show-order {
-display: inline;
+display: none;
 }
 
 .contact {

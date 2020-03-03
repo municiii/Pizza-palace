@@ -99,7 +99,7 @@
                     <div class="new-info">
                       <div class="form-group">
                         <label for="new-type">Pizza Type</label>
-                        <select class="form-control" id="type">
+                        <select id="type">
                             <option value="Hawaiian">Hawaiian pizza</option>
                             <option value="Borewors">Borewors pizza</option>
                             <option value="deluxe">Meat-deluxe pizza</option>
@@ -136,9 +136,11 @@
                         <label for="new-number">Number of pizza's</label>
                         <input type="number" class="form-control new-number" min="1">
                       </div>
+                      <button type="button" class="calc">Submit</button>
+                      <hr>
+                      <p id="order"></p>
                     </div>
                   </div>
-                  <button type="button" class="calc">submit</button>
                 
               </div>
       
@@ -148,9 +150,6 @@
                   <p>First name: <span class="first-name"></span></p>
                   <p>Last name: <span class="last-name"></span></p>
                   <p>Order:</p>
-                  <ul id="order">
-      
-                  </ul>
                 </div>
               </div>
       
