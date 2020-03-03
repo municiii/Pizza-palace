@@ -61,21 +61,106 @@
         </div>
         <br><br>
         <h3>Pizza sizes.</h3>
+        <br>
         <div class="row">
             <div class="column1">
-                <img src="img/small.jpeg" alt="A small pizza" style="width: 300px; height: 300px;">
-                <div class="carousel-caption small">Small<br>10 inch</div>
+                <div class="A">
+                    <img src="img/small.jpeg" alt="A small pizza" style="width: 300px; height: 300px;">
+                    <div class="carousel-caption small">Small<br>10 inch</div>
+                </div>
             </div>
             <div class="column1">
-                <img src="img/medium.jpeg" alt="A medium pizza" style="width: 400px; height: 400px;">
-                <div class="carousel-caption medium">Medium<br>12 inch</div>
+                <div class="B">
+                    <img src="img/medium.jpeg" alt="A medium pizza" style="width: 400px; height: 400px;">
+                    <div class="carousel-caption medium">Medium<br>12 inch</div>
+                </div>
             </div>
             <div class="column1">
-                <img src="img/large.jpeg" alt="A large pizza" style="width: 500px;height: 500px;">
+                <div class="C">
+                    <img src="img/large.jpeg" alt="A large pizza" style="width: 500px;height: 500px;">
                 <div class="carousel-caption large">Large<br>14 inch</div>
+                </div>
             </div>
-
         </div>
+        <h2>ORDER</h2>
+        <div class="container">
+            <h1>PLACE AN ORDER</h1>
+      
+            <div class="row">
+              
+                <div class="col-md-6">
+                <h2>Add details:</h2>
+                <form id="new-contact">
+                  <div class="form-group">
+                    <label for="new-first-name">First name</label>
+                    <input type="text" class="form-control" id="new-first-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="new-last-name">Last name</label>
+                    <input type="text" class="form-control" id="new-last-name">
+                  </div>
+      
+                  <div id="new-info">
+                    <div class="new-info">
+                      <div class="form-group">
+                        <label for="new-type">Pizza Type</label>
+                        <select class="form-control" id="type">
+                            <option value="Hawaiian">Hawaiian pizza</option>
+                            <option value="Borewors">Borewors pizza</option>
+                            <option value="deluxe">Meat-deluxe pizza</option>
+                            <option value="periperi">Periperi pizza</option>
+                            <option value="veggie-periperi">Veggie-periperi</option>
+                            <option value="veggie-hawaiian">Veggie-hawaiian</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="new-size">Pizza Size</label>
+                        <select class="form-control" id="size">
+                            <option value="small">Small  @ 600</option>
+                            <option value="medium">Medium @800</option>
+                            <option value="large">Large @1000</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="new-crust">Pizza crust</label>
+                        <select class="form-control crust">
+                            <option value="crispy">Crispy @ 200</option>
+                            <option value="stuffed">Stuffed @200</option>
+                            <option value="gluten">Gluten-free @200</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="new-toppings">Toppings</label>
+                        <select class="form-control toppings">
+                            <option value="mushrooms">mushrooms</option>
+                            <option value="bacon">bacon</option>
+                            <option value="cheese">extra-cheese</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="new-number">Number of pizza's</label>
+                        <input type="number" class="form-control new-number" min="1">
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="calc">submit</button>
+                
+              </div>
+      
+              <div class="col-md-6">
+                <div id="show-order">
+                  <h2></h2>
+                  <p>First name: <span class="first-name"></span></p>
+                  <p>Last name: <span class="last-name"></span></p>
+                  <p>Order:</p>
+                  <ul id="order">
+      
+                  </ul>
+                </div>
+              </div>
+      
+            </div>
+          </div>
 
 
 

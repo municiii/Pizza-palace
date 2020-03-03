@@ -112,4 +112,15 @@ body {
   padding: 5px;
 }
 
-  
+#show-order {
+display: inline;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}  
